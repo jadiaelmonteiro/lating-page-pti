@@ -273,6 +273,7 @@ body {
 #cta a {
     opacity: 1;
     text-align: center;
+    text-decoration: none;
 }
 
 #footer {
