@@ -19,6 +19,23 @@ body {
 
 /* form styles */
 
+#social {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#social img {
+    height: 1.5em;
+}
+
+#social a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+;
+
+}
+
 #event-subscription {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
     url("../img/v1.jpg");
