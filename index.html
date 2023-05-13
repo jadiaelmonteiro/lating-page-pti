@@ -29,7 +29,7 @@
     </div>
     <div id="subscription-form">
       <p>Preencha o formulário para realizar a pré-matrícula</p>
-      <form>
+      <form onsubmit="send()">
         <div class="form-group">
           <label for="name">Nome *</label>
           <input id="name" type="text" placeholder="Digite seu nome" required/>
@@ -52,7 +52,7 @@
             <option value="other">Outros</option>
           </select>
         </div>
-        <input onclick="send()" type="submit" class="btn" value="Inscrever" />
+        <button type="submit" class="btn">Inscrever</button>
         <p class="about-information">Campos com * são obrigatórios</p>
       </form>
     </div>
@@ -142,7 +142,7 @@
 
   <section id="cta">
     <h3>Gostou? Então se matricule:</h3>
-    <a href="#subscription-form" class="btn">Pré-matrícula</a>
+    <a href="#event-subscription" class="btn">Pré-matrícula</a>
   </section>
 
   <footer id="footer">
