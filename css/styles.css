@@ -54,6 +54,12 @@ body {
     margin-bottom: 0.3em;
 }
 
+#event-subscription .about-information {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 0.8em;
+}
+
 #disclaimer .event-promotion {
     font-weight: bold;
 }
@@ -300,7 +306,7 @@ body {
 }
 
 /* Mobile */
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
 
     .btn {
         opacity: 1;
