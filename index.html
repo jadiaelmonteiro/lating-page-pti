@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escola de Música</title>
+  <!-- Text font -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Icons Font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <header id="event-subscription">
+    <div id="disclaimer">
+      <h2>Stúdio de Música</h2>
+      <p class="about-event">
+        Aulas para revolucionar a sua técnica e  criatividade
+      </p>
+      <p>Mátrciulas abertas</p>
+      <p class="event-promotion">Promoção para novos alunos, não perca!</p>
+    </div>
+    <div id="subscription-form">
+      <p>Preencha o formulário para realizar a pré-matrícula</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" placeholder="Digite seu nome" />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" placeholder="Digite seu melhor e-mail" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone</label>
+          <input type="text" placeholder="Número de Whatsapp" />
+        </div>
+        <div class="form-group">
+          <label for="interest">Principal interesse</label>
+          <select name="interest">
+            <option value="" disabled selected>Selecione</option>
+            <option value="apartment">Violão</option>
+            <option value="house">Piano</option>
+            <option value="garden">Guitarra</option>
+            <option value="other">Outros</option>
+          </select>
+        </div>
+        <input onclick="send()" type="submit" class="btn" value="Inscrever" />
+      </form>
+    </div>
+  </header>
+
+  <section id="key-benefits">
+    <h2>O que você vai aprender:</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <div id="benefit-1" class="benefit-img"></div>
+        <p>
+          Violão popular, erudito e espanhol: Escalas maiores, menores, mélodicas e harmônicas as melhores práticas e conceitos.
+        </p>
+      </div>
+      <div class="benefit">
+        <div id="benefit-2" class="benefit-img"></div>
+        <p>
+          Piano popular e erudito: técnicas para coordenação das mãos, manipulação total do piano, aulas com os melhores profissionais.
+        </p>
+      </div>
+      <div class="benefit">
+        <div id="benefit-3" class="benefit-img"></div>
+        <p>
+          Sopro: Sax, flauta transversal e clarinete. Os melhores profissionais disponíveis para seu aprendizado rápido e dinâmico.
+        </p>
+      </div>
+      <div class="benefit">
+        <div id="benefit-4" class="benefit-img"></div>
+        <p>
+          Guitarra elêtrica: Técninas de arpejos, pentatonicas, modos gregos, backing tracking incluídos para seus exercícios diários. 
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="location">
+    <div id="address">
+      <i class="bi bi-geo-alt-fill"></i>
+      <div id="address-details">
+        <p>Rua do studio, 1333</p>
+        <p>Bairro</p>
+        <p>Funcionamento todos os dias das: 14h às 21h</p>
+      </div>
+    </div>
+    <div id="about-location">
+      <h3 title="Consultar eventos programados para mais informações">Local</h3>
+      <p>
+        O studio está em um local prestigiado pelos amantes da
+        música, um teátro grande e com vários espetáculos gratuitos, em várias épocas do ano, e muito mais.
+      </p>
+    </div>
+  </section>
+
+  <section id="details">
+    <div class="detail" id="detail-1">
+      <img src="img/a1.jpg" alt="" />
+      <div class="detail-description">
+        <h3>Conheça os ambientes que você vai ter aulas</h3>
+      </div>
+    </div>
+    <div class="detail" id="detail-2">
+      <div class="detail-description">
+        <h3>Intrumentos disponíveis nas salas</h3>
+        <ul>
+          <li>Violão</li>
+          <li>Teclado</li>
+          <li>Sopro</li>
+          <li>Guitarra</li>
+          <li>E muito mais...</li>
+        </ul>
+      </div>
+      <img src="img/a2.jpg" alt="" />
+    </div>
+    <div class="detail" id="detail-3">
+      <img src="img/t1.jpg" alt="" />
+      <div class="detail-description">
+        <h3>Apresentações de professores e alunos</h3>
+        <ul>
+          <li>Ambiente climatizado</li>
+          <li>Cadeiras marcadas</li>
+          <li>Sala acústica</li>
+          <li>E muito mais...</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta">
+    <h3>Gostou? Então se matricule:</h3>
+    <a href="#subscription-form" class="btn">Pré-matrícula</a>
+  </section>
+
+  <footer id="footer">
+    <h3>Escola de Música</h3>
+    <p>A evolução da sua musicalidade</p>
+    <p><span>Entre em contato:</span> aula@studiomusica.com.br</p>
+    <p><span>Ou pelo telefone:</span> (81)99990-9999</p>
+  </footer>
+  
+</body>
+<script src="./js/main.js"></script>
+
+</html>
